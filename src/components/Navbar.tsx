@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Menu, MenuItem} from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import { HoverBorderGradient } from "./ui/hover-border-gradient";
+// import { HoverBorderGradient } from "./ui/hover-border-gradient";
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     
