@@ -36,7 +36,7 @@ const heroSection = () => {
         <Boxes/>
         <div className="flex flex-col items-center justify-center h-[40rem] z-20 ">
       <p className="text-neutral-600 dark:text-neutral-200 text-base  mb-10">
-      Challenge your skills, embrace the thrill – where every coder's journey to victory begins!
+      Challenge your skills, embrace the thrill – where every coder&apos;s journey to victory begins!
       </p>
       <TypewriterEffect words={words} />
      
