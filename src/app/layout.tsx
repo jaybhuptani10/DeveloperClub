@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+
 import Navbar from "@/components/Navbar";
 
 
