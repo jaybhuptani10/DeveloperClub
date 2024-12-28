@@ -17,25 +17,19 @@ function Navbar({ className }: { className?: string }) {
             <MenuItem setActive={setActive} active={active} item="Events"></MenuItem>
             </Link>
             <Link href={"/"}>
-            <MenuItem setActive={setActive} active={active} item="Hackathon"></MenuItem>
-            </Link>
-            <Link href={"/"}>
-            <MenuItem setActive={setActive} active={active} item="Contact"></MenuItem>
-            </Link>
-            <Link href={"/"}>
-            <MenuItem setActive={setActive} active={active} item="Coordinators"></MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Team"></MenuItem>
             </Link>
             <Link href={"/"}>
             <MenuItem setActive={setActive} active={active} item="Leaderboard"></MenuItem>
             </Link>
-            <HoverBorderGradient
+            {/* <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
         className="dark:bg-green-500 bg-white text-black dark:text-white flex items-center space-x-2 px-8 py-2"
       >
         
         <span>Join</span>
-      </HoverBorderGradient>
+      </HoverBorderGradient> */}
             
             
             
