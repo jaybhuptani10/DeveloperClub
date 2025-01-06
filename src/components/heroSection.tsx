@@ -38,7 +38,7 @@ const heroSection = () => {
       <p className="text-neutral-600 dark:text-neutral-200 text-base mb-10  ">
       Challenge your skills, embrace the thrill – where every coder&apos;s journey to victory begins!
       </p>
-      <TypewriterEffect className="text-sm" words={words} />
+      <TypewriterEffect className="text-2xl sm:text-lg" words={words} />
      
     </div>
       
